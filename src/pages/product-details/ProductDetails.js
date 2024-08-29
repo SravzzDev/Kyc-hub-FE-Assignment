@@ -77,7 +77,7 @@ const ProductDetails = ({ products, handleAddToCompare, comparedProducts }) => {
         showTotal: (total, range) => `${range[0]}-${range[1]} of ${total} items`,
       }}
       bordered
-      scroll={{ y: 480 }}
+      scroll={{ y: 400 }}
     />
   );
 };
