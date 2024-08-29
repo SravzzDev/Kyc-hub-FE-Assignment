@@ -22,3 +22,6 @@ code {
   padding: 0 20px;
   
 }
+.ant-modal{
+  top: 15px!important;
+}

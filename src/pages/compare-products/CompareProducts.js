@@ -42,7 +42,7 @@ const CompareProducts = ({ products, onRemove, onAddMore }) => {
             bordered
             rowKey="id"
             pagination={{ pageSize: 5 }}
-            scroll={{ y: 300 }}
+            scroll={{ y: 400 }}
           />
           <Button type="primary" onClick={onAddMore} disabled={products.length >= 4} style={{marginTop:"-15px"}}>
             Add More

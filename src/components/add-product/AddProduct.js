@@ -57,6 +57,7 @@ const AddProduct = ({ visible, onClose, products, comparedProducts, onAddMore })
           onCancel={onClose}
           footer={null}
           width={850}
+          height={500}
         
         >
           <Table
