@@ -57,6 +57,7 @@ const AddProduct = ({ visible, onClose, products, comparedProducts, onAddMore })
           onCancel={onClose}
           footer={null}
           width={850}
+          height={500}
         >
           <Table
             columns={columns}
@@ -64,7 +65,7 @@ const AddProduct = ({ visible, onClose, products, comparedProducts, onAddMore })
             rowKey="id"
             bordered
             pagination={{ pageSize: 5 }}
-            scroll={{ y: 400 }}
+            scroll={{ y: 430 }}
           />
         </Modal>
       );

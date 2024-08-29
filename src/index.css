@@ -14,7 +14,7 @@ code {
 }
 .ant-modal-root .ant-modal-wrap {
 
-  overflow: hidden !important;
+  overflow: auto !important;
  
 }
 .ant-layout-header {
